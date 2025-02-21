@@ -1,0 +1,4 @@
+flask
+textblob
+python-dotenv
+google-generativeai
