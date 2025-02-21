@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-chatbot
+    env: python
+    runtime: python311
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
